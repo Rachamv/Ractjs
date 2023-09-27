@@ -1,0 +1,162 @@
+/* Fonts */
+:root {
+  --font-roboto: "https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
+  --font-open-sans: "https://fonts.googleapis.com/css?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,800&display=swap";
+  --font-poppins: "https://fonts.googleapis.com/css?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+  --font-lato: "https://fonts.googleapis.com/css?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap";
+  --font-raleway: "https://fonts.googleapis.com/css?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+}
+
+/* Reset Styles */
+/* Universal Selector Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Optional: Set a baseline font size and line height */
+html {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Optional: Remove underlines from links */
+a {
+  text-decoration: none;
+}
+
+/* Optional: Remove list styling */
+ul, ol {
+  list-style: none;
+}
+
+/* Optional: Remove default styles for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: Reset form elements */
+input, textarea, button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Color Palette */
+:root {
+  /* Reds */
+  --red-1: #FF3B30;
+  --red-2: #FF453A;
+  --red-3: #FF4D45;
+  --red-4: #FF5750;
+  --red-5: #FF5C55;
+
+  /* Oranges */
+  --orange-1: #FF9500;
+  --orange-2: #FFA101;
+  --orange-3: #FFAB0D;
+  --orange-4: #FFB61D;
+  --orange-5: #FFC501;
+
+  /* Yellows */
+  --yellow-1: #FFD60A;
+  --yellow-2: #FFDF1D;
+  --yellow-3: #FFE729;
+  --yellow-4: #FFEC37;
+  --yellow-5: #FFF44E;
+
+  /* Greens */
+  --green-1: #34C759;
+  --green-2: #5ACF79;
+  --green-3: #65D887;
+  --green-4: #6CDC93;
+  --green-5: #72DDA2;
+
+  /* Blues */
+  --blue-1: #007AFF;
+  --blue-2: #0088FF;
+  --blue-3: #0095FF;
+  --blue-4: #00A3FF;
+  --blue-5: #00B1FF;
+
+  /* Purples */
+  --purple-1: #5856D6;
+  --purple-2: #6357E0;
+  --purple-3: #6D5DE5;
+  --purple-4: #725FEC;
+  --purple-5: #7C64F7;
+
+  /* Neutrals */
+  --gray-1: #8E8E93;
+  --gray-2: #AEAEB2;
+  --gray-3: #C7C7CC;
+  --gray-4: #D1D1D6;
+  --gray-5: #E5E5EA;
+
+  /* Additional Colors */
+  --custom-1: #FFAA00;
+  --custom-2: #00FFAA;
+  --custom-3: #AA00FF;
+  --custom-4: #00AAFF;
+  --custom-5: #FF00AA;
+}
+
+/* Default Styling */
+/* Set a default background color and text color for the whole page */
+body {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-roboto), sans-serif;
+}
+
+/* Default Heading Styles */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+}
+/* Rounded border with a gradient background */
+.rounded-box {
+  border-radius: 0 2px 10px 5px;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+/* Container styles */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container-sm {
+  max-width: 782px;
+}
+
+.container-md {
+  max-width: 1280px;
+}
+
+.container-lg {
+  max-width: 1440px;
+}
+
+/* Flexbox utilities */
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Corrected class name, should be "flex-column" */
+.d-flex.flex-column {
+  flex-direction: column;
+}
